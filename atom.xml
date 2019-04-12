@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="www.friend-ma.top/"/>
-  <updated>2019-04-12T09:28:16.264Z</updated>
+  <updated>2019-04-12T09:36:46.769Z</updated>
   <id>www.friend-ma.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>testforpicture</title>
+    <link href="www.friend-ma.top/2019/04/12/testforpicture/"/>
+    <id>www.friend-ma.top/2019/04/12/testforpicture/</id>
+    <published>2019-04-12T09:29:04.000Z</published>
+    <updated>2019-04-12T09:36:46.769Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/testforpicture/demo.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;/testforpicture/demo.jpg&quot; alt&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="test" scheme="www.friend-ma.top/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>test_image</title>
