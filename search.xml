@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[test_image]]></title>
-    <url>%2F2019%2F04%2F11%2Ftest-image%2F</url>
+    <url>%2F2019%2F04%2F11%2Ftest_image%2F</url>
     <content type="text"><![CDATA[先测试下插入图片 1.首先确认_config.yml 中有 post_asset_folder:true。Hexo 提供了一种更方便管理 Asset 的设定：post_asset_folder当您设置post_asset_folder为true参数后，在建立文件时，Hexo会自动建立一个与文章同名的文件夹，您可以把与该文章相关的所有资源都放到那个文件夹，如此一来，您便可以更方便的使用资源。2.在hexo的目录下执行npm install https://github.com/CodeFalling/hexo-asset-image –save（需要等待一段时间）。3.完成安装后用hexo新建文章的时候会发现_posts目录下面会多出一个和文章名字一样的文件夹。图片就可以放在文件夹下面。结构如下：本地图片测试├── apppicker.jpg├── logo.jpg└── rules.jpg本地图片测试.md 然后hexo cleanhexo ghexo d 三连。。。]]></content>
   </entry>
   <entry>
