@@ -414,7 +414,7 @@
                 
               
 
-              <time title="创建时间：2019-04-12 18:57:50 / 修改时间：20:04:23" itemprop="dateCreated datePublished" datetime="2019-04-12T18:57:50+08:00">2019-04-12</time>
+              <time title="创建时间：2019-04-12 18:57:50 / 修改时间：22:24:24" itemprop="dateCreated datePublished" datetime="2019-04-12T18:57:50+08:00">2019-04-12</time>
             
 
             
@@ -491,9 +491,9 @@
 <p></p><h2>解决方法</h2><br>1.首先确认站点_config.yml（hexo根目录下的那个） 中有 post_asset_folder: true。(空一格)<br>Hexo 提供了一种更方便管理 Asset 的设定：post_asset_folder<br>当您设置post_asset_folder为true参数后，在建立文件时，Hexo<br>会自动建立一个与文章同名的文件夹，您可以把与该文章相关的所有资源都放到那个文件夹，如此一来，您便可以更方便的使用资源。<p></p>
 <p>2.在hexo的目录下执行<code>npm install https://github.com/CodeFalling/hexo-asset-image --save</code>（需要等待一段时间）。</p>
 <p>3.hexo n “demo”</p>
-<p>4.完成安装后用hexo新建文章的时候会发现_posts目录下面会多出一个和文章名字一样的文件夹。图片就可以放在文件夹下面。结构如下：<br>本地图片测试<br>├── apppicker.jpg<br>├── logo.jpg<br>└── rules.jpg<br>demo.md</p>
-<p>图片要和文章所在的文件夹在一起，写成这样就可以了</p>
-<pre><code> {% asset_img figure2.png This is an example image %}</code></pre>
+<p>4.完成安装后用hexo新建文章的时候会发现_posts目录下面会多出一个和文章名字一样的文件夹。图片就可以放在文件夹下面。结构如下：<br>demo文件夹<br>–figure2.png<br>demo.md</p>
+<p>图片要和文章所在的文件夹在一起，写成这样就可以了，在demo.md 插入你要插入的图片的位置写如下：</p>
+<pre><code> {% asset_img figure2.png This is an example image %}  /*修改figure2.png，figure2.png应在[demo文件夹中]*/</code></pre>
 
 <img src="/2019/04/12/hexo-图片无法显示/figure2.png" title="This is an example image">
 

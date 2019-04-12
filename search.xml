@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[hexo 图片无法显示]]></title>
     <url>%2F2019%2F04%2F12%2Fhexo-%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%2F</url>
-    <content type="text"><![CDATA[遇到这样的问题 解决方法1.首先确认站点_config.yml（hexo根目录下的那个） 中有 post_asset_folder: true。(空一格)Hexo 提供了一种更方便管理 Asset 的设定：post_asset_folder当您设置post_asset_folder为true参数后，在建立文件时，Hexo会自动建立一个与文章同名的文件夹，您可以把与该文章相关的所有资源都放到那个文件夹，如此一来，您便可以更方便的使用资源。 2.在hexo的目录下执行npm install https://github.com/CodeFalling/hexo-asset-image --save（需要等待一段时间）。 3.hexo n “demo” 4.完成安装后用hexo新建文章的时候会发现_posts目录下面会多出一个和文章名字一样的文件夹。图片就可以放在文件夹下面。结构如下：本地图片测试├── apppicker.jpg├── logo.jpg└── rules.jpgdemo.md 图片要和文章所在的文件夹在一起，写成这样就可以了 {% asset_img figure2.png This is an example image %}]]></content>
+    <content type="text"><![CDATA[遇到这样的问题 解决方法1.首先确认站点_config.yml（hexo根目录下的那个） 中有 post_asset_folder: true。(空一格)Hexo 提供了一种更方便管理 Asset 的设定：post_asset_folder当您设置post_asset_folder为true参数后，在建立文件时，Hexo会自动建立一个与文章同名的文件夹，您可以把与该文章相关的所有资源都放到那个文件夹，如此一来，您便可以更方便的使用资源。 2.在hexo的目录下执行npm install https://github.com/CodeFalling/hexo-asset-image --save（需要等待一段时间）。 3.hexo n “demo” 4.完成安装后用hexo新建文章的时候会发现_posts目录下面会多出一个和文章名字一样的文件夹。图片就可以放在文件夹下面。结构如下：demo文件夹–figure2.pngdemo.md 图片要和文章所在的文件夹在一起，写成这样就可以了，在demo.md 插入你要插入的图片的位置写如下： {% asset_img figure2.png This is an example image %} /*修改figure2.png，figure2.png应在[demo文件夹中]*/]]></content>
       <categories>
         <category>hexo</category>
       </categories>
