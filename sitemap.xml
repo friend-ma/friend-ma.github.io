@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>www.friend-ma.top/categories/index.html</loc>
+    
+    <lastmod>2019-05-14T16:52:26.455Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>www.friend-ma.top/tags/index-1.html</loc>
+    
+    <lastmod>2019-05-14T16:50:09.313Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>www.friend-ma.top/tags/index.html</loc>
     
     <lastmod>2019-05-14T16:43:20.999Z</lastmod>
@@ -40,13 +54,6 @@
     <loc>www.friend-ma.top/2019/04/10/hello-world/</loc>
     
     <lastmod>2019-04-10T17:12:21.171Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>www.friend-ma.top/categories/index.html</loc>
-    
-    <lastmod>2019-04-10T17:02:12.679Z</lastmod>
     
   </url>
   
